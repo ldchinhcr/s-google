@@ -106,7 +106,7 @@ body {
 footer {
     background-color: #f2f2f2;
     text-indent: 50px;
-    margin-top: 14%;
+    margin-top: 11%;
 }
 
 .first {
@@ -118,8 +118,8 @@ footer {
 
 .second {
     display: flex;
-    padding: 15px 0px 15px 0px;
-    margin-right: 30px;
+    padding: 15px 30px 15px 0px;
+    border-bottom: 1px solid #c5c5c5;
 }
 
 .left {
@@ -139,4 +139,17 @@ footer {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 20px;
+}
+
+.about {
+    text-align: center;
+    height: 20px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.author {
+    text-decoration: none;
+    color: gray;
 }
